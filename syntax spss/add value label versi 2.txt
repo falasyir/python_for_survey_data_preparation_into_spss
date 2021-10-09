@@ -1,0 +1,76 @@
+add value label kota
+1"Jakarta"
+2"Aceh"
+3"Palembang"
+
+add value label q1_puas
+1"Ya"
+2"Tidak"
+
+add value label q2_alsn_puas_opsi_1
+1"Kualitas baik"
+
+add value label q2_alsn_puas_opsi_2
+2"Harganya murah"
+
+add value label q2_alsn_puas_opsi_3
+3"Dapat ditemui di mana saja"
+
+add value label q3_alsn_puas_utm
+1"Mudah menggunakannya"
+2"Harganya murah"
+3"Dapat ditemui di mana saja"
+
+add value label q4_tmpt_bli_opsi_1
+1"Supermarket"
+
+add value label q4_tmpt_bli_opsi_2
+2"Pasar tradisional"
+
+add value label q4_tmpt_bli_opsi_3
+3"Warung"
+
+add value label q4_tmpt_bli_opsi_4
+4"Online shop"
+
+add value label q4_tmpt_bli_opsi_5
+5"Dari keluarga"
+
+add value label q4_tmpt_bli_opsi_6
+6"Dari teman"
+
+add value label q4_tmpt_bli_opsi_7
+7"Mini market"
+
+add value label q4_tmpt_bli_opsi_8
+8"Pom bensin"
+
+add value label q4_tmpt_bli_opsi_9
+9"Toko sembako"
+
+add value label q4_tmpt_bli_opsi_10
+10"Juragan"
+
+add value label q5_tmpt_utm
+1"Sulit digunakan"
+2"Harga kurang terjangkau"
+3"Tidak banyak dijumpai"
+
+add value label q7_kemurahan
+1"Sangat Mahal"
+2"Mahal"
+3"Biasa saja"
+4"Murah"
+5"Sangat murah"
+
+add value label q8_kesan
+1"Sangat jelek"
+2"Jelek"
+3"Biasa saja"
+4"Bagus"
+5"Sangat bagus"
+
+add value label q9_rekomen
+1"Ya"
+2"Tidak"
+
