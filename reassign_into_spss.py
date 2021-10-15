@@ -95,8 +95,12 @@ def labeling_dataset(dataset, label_jawaban, kolom_labeling, kolom_abai=[],
     for klm in kolom_labeling:
         label_ = klm.split("_")[0]
         
+        # skip jika nama kolom punya kondisi berikut
+        if (klm in kolom_abai) or ('rp' in klm) or ('%' in klm):
+            continue        
+        
         # Jika multirespon ada, dan versi 1 aktif
-        if (kolom_multi_respon!=None) and (klm in kolom_multi_respon) and (versi_1==True):
+        elif (kolom_multi_respon!=None) and (klm in kolom_multi_respon) and (versi_1==True):
             value_ = [1]
             number_ = ["Ya"]
             
@@ -108,7 +112,7 @@ def labeling_dataset(dataset, label_jawaban, kolom_labeling, kolom_abai=[],
             number_ = [number_]
             
         # Jika multirespon tidak ada / kolom selain multirespon
-        elif (label_ in list_label) and ((klm not in kolom_abai) or ('rp' not in list_label) or ('%' not in list_label)):
+        elif (label_ in list_label):
             value_ = label_jawaban[label_jawaban[label_].notnull()]['label_jawaban'].values
             number_ = label_jawaban[label_jawaban[label_].notnull()][label_]
 
