@@ -9,7 +9,7 @@ Pembuatan dokumen ini dilakukan dibuat pada OS Fedora 34 menggunakan package:
 
 <i>Note : data yang digunakan sebagai contoh adalah data fiktif</i>
 
-## Ketentuan penggunaan <b>reassign_into_spss.py</b>
+## Ketentuan penggunaan reassign_into_spss.py
 1. Penamaan kolom data untuk kolom multipleresponse dimulai dengan label data (q1, q2, q3) diikuti dengan keterangan kolom yang sama di setiap label data dan diakhiri dengan nomor urutan. Penulisan dipisahkan dengan tanda <i>underscore</i>. Contoh yang berfungsi : q1_pilihan_1, q1_pilihan_2, q2_pilihan_1, q2_pilihan_2, dst. Contoh yang tidak akan berfungsi : q1pilihan_1, q1pilihan_2 atau q1_1, q1_2, dst.
 2. File label jawaban untuk <b>tahapan labeling</b> perlu mengikuti contoh yang ada. Jika ingin menggunakan format lain, dipersilakan untuk merombank isi programnya.
 3. File label jawaban untuk <b>tahapan generate syntax SPSS</b> dapat langsung menggunakan file excel dengan mengikuti format tabel <b>label_jawaban_melted</b>.
